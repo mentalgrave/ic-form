@@ -1,0 +1,35 @@
+.form-container {
+     height: 316px;
+}
+input {
+    border: none;
+    background-color: #ECF0F8;
+    }
+.form-wrapper1 input:focus + label {
+    top: 8px;
+    font-size: 12px;
+    }
+.button-container {
+    margin-top: 32px;
+    }
+button {
+    background-color: #184BFF;
+    color: white;
+    }
+    .form-wrapper1 svg {
+        right: 20px;
+        width: 11px;
+        height: 11px;
+        top: 50%;
+    }
+    .form-wrapper2 {
+        position: relative;
+        width: 100%;
+    }
+    .form-wrapper2 svg {
+        right: 16px;
+        top: 50%;
+    }
+    .form-wrapper2 label {
+        top: 40%;
+    }

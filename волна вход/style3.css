@@ -1,0 +1,39 @@
+.form-container {
+     height: 336px;
+}
+input {
+    border-color: #ED584E;
+    border-width: 1.5px;
+    background-color: #ECF0F8;
+}
+.form-wrapper1 input:focus + label {
+    top: 8px;
+    font-size: 12px;
+}
+button {
+    background-color: #007bff;
+    background-color: #ECF0F8;
+    color: #9B9BA1;
+    margin-top: 32px;
+}
+.form-wrapper1 svg {
+    right: 20px;
+    width: 11px;
+    height: 11px;
+    top: 50%;
+}
+.form-wrapper2 {
+    position: relative;
+    width: 100%;
+}
+.form-wrapper2 svg {
+    right: 16px;
+    top: 35%;
+}
+.error {
+    margin-top: 8px;
+    color: #ED584E;
+}
+.form-wrapper2 label {
+    top: 30%;
+}

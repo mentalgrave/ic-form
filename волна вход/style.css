@@ -1,0 +1,21 @@
+.form-container {
+     height: 316px;
+}
+        input {
+            border: none;
+            background-color: #ECF0F8;
+            color: #9B9BA1;
+        }
+        .button-container {
+            margin-top: 32px;
+        }
+        button {
+            background-color: #ECF0F8;
+            color: #9B9BA1;
+        }
+    .form-wrapper svg {
+            right: 1rem;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+    }
