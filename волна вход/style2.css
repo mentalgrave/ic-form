@@ -1,152 +1,35 @@
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-        body {
-            width: 1440px;
-            height: 1024px;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            background-color: #F4F6FB;
-        }
-        .form-container {
-            width: 439px;
-            height: 316px;
-            background: white;
-            border-radius: 12px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            padding: 32px;
-            transform: translate(0px, -200px)
-        }
-        h4 {
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 24px;
-            font-size: 24px;
-            font-family: "Roboto", sans-serif;
-        }
-        form {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .form-group {
-            margin-bottom: 8px; 
-            width: 375px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 500;
-            color: #333;
-        }
-        input {
-            width: 375px;
-            height: 56px;
-            padding: 24px;
-            border: none;
-            border-radius: 12px;
-            font-size: 14px;
-            box-sizing: border-box;
-            display: block;
-            background-color: #ECF0F8;
-            font-family: "Roboto", sans-serif;
-        }
-         .form-wrapper1 input:focus + label {
-        top: 8px;
-        font-size: 12px;
+.form-container {
+     height: 316px;
+}
+input {
+    border: none;
+    background-color: #ECF0F8;
     }
-        .button-container {
-            margin-top: 32px;
-            text-align: center;
-        }
-        button {
-            width: 375px;
-            height: 48px;
-            padding: 10px 20px;
-            background-color: #184BFF;
-            color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 14px;
-            cursor: pointer;
-            display: inline-block;
-            
-            
-            font-family: "Roboto", sans-serif;
-        }
-            .form-wrapper1 {
-        position: relative;
-        width: 100%;
+.form-wrapper1 input:focus + label {
+    top: 8px;
+    font-size: 12px;
     }
-
-    .form-wrapper1 input {
-        padding-right: 50px;
+.button-container {
+    margin-top: 32px;
+    }
+button {
+    background-color: #184BFF;
+    color: white;
     }
     .form-wrapper1 svg {
-        position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 11px;
-            height: 11px;
-            pointer-events: none;
-            transition: stroke 0.2s, fill 0.2s;
+        right: 20px;
+        width: 11px;
+        height: 11px;
+        top: 50%;
     }
     .form-wrapper2 {
         position: relative;
         width: 100%;
     }
-
-    .form-wrapper2 input {
-        padding-right: 50px;
-        
-    }
     .form-wrapper2 svg {
-        position: absolute;
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 20px;
-            height: 20px;
-            pointer-events: none;
-            transition: stroke 0.2s, fill 0.2s;
-    }
-    .volna {
-   position: absolute;
-     transform: translate(0px, -500px);
-     margin-top: 60px;
-    }
- 
-    .form-wrapper1 input:focus + label {
-        top: 8px;
-        font-size: 12px;
-    }
-    .form-wrapper1 label {
-        position: absolute;
-        left: 20px;
-        top: 40%;
-        transform: translateY(-10%);
-        color: #999;
-        font-size: 16px;
-        pointer-events: none;
-        transition: all 0.3s;
-    }
-      .form-wrapper2 input:focus + label {
-        top: 8px;
-        font-size: 12px;
+        right: 16px;
+        top: 50%;
     }
     .form-wrapper2 label {
-        position: absolute;
-        left: 20px;
         top: 40%;
-        transform: translateY(-10%);
-        color: #999;
-        font-size: 16px;
-        pointer-events: none;
-        transition: all 0.3s;
     }
